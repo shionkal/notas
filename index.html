@@ -6,13 +6,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>DESARROLLO WEB</title>
+    <style>
+        #Primero{
+            color: rgb(128, 245, 186);
+            font: size 40px;
+            background-color:black;
+            margin:20px;
+        }
+        #Segundo{
+            color: white;
+            font: size 40px;
+            background-color:black;
+            margin:20px;
+        }
+        #Tercero{
+            color: blue;
+            font: size 40px;
+            background-color:black;
+            margin:20px;
+        }
+        #Cuarto{
+            color: blue;
+            font: size 40px;
+            background-color:black;
+            margin:20px;
+        }
+        #Quinto{
+            color: blue;
+            font: size 40px;
+            background-color:black;
+            margin:20px;
+        }
+        #Sexto{
+            color: blue;
+            font: size 40px;
+            background-color:black;
+            margin:20px;
+        }
+        #Septimo{
+            color: blue;
+            font: size 40px;
+            background-color:black;
+            margin:20px;
+        }
+        .p-red{
+            color:red;
+        }
+        .p-green{
+            color:green;
+        }
+        .p-yellow{
+            color:yellow;
+        }
+        .p-blue{
+            color:blue;
+        }
+        .p-orange{
+            color:orange;
+        }
+        .p-grey{
+            color:grey;
+            width: 60%;
+            margin: auto;
+            box-shadow: -8px 10px 5px 3px black;
+        }
+        .p-purple{
+            color:purple;
+            margin-top: 10%;
+            margin-left: 30%;
+            margin-right: 30%;
+            margin-bottom: 10%;
+            we
+
+        }
+
+    </style>
 </head>
 
 <body>
     <main>
         <section>
             <h1>Desarrolló Web</h1>
-            <p>
+            <p class="p-red">
                 Este curso forma parte del programa de Escuelas de Código de la Ciudad de México, tiene como finalidad
                 introducir las herramientas necesarias para comenzar en el desarrollo web. Al finalizar los alumnos
                 tendrán un panorama general de lo que es el desarrollo web, cómo funciona la web, las tecnologías
@@ -21,8 +96,8 @@
                 finalizar cada uno de ellos se presentarán ejercicios practicas donde los estudiantes implementaran los
                 conocimiento adquiridos.
             </p>
-            <h2>Un poco de historia</h2>
-            <p>
+            <h2 id="Primero">Un poco de historia</h2>
+            <p class="p-blue">
                 El nacimiento de la web se da el 23 de agosto de 1991 en el CERN (Conseil Européen pour la Recherche
                 Nucléaire) cuando por primera vez en la historia usuarios externos al CERN pudieron empezar a acceder a
                 su última creación. Su desarrolló se dio años antes por el científico informático Tim Berners-Lee, y se
@@ -30,7 +105,7 @@
                 objetivo de ayudar a los físicos en la búsqueda de la información.
 
                 <img src="img/leeBerner.jpeg" alt="">
-            <p>
+            <p class="p-blue">
                 Para 1993 había 600 sitios, para 1995 la cifra aumentó hasta los 15.000. Hoy, la WWW se ha convertido en
                 el servicio más valorado de Internet. A partir de 2008, había 1500 millones de usuarios de Internet en
                 todo el mundo, 1300 millones de usuarios de correo electrónico, 210 mil millones de correos electrónicos
@@ -39,9 +114,9 @@
 
         </section>
         <section>
-            <h2>El lenguaje de la web: HTML</h2>
+            <h2 id="Segundo">El lenguaje de la web: HTML</h2>
 
-            <p>
+            <p class="p-orange">
                 Un sitio Web está formado por un conjunto de recursos o páginas web conectadas, generalmente asociado a
                 un tema bien definido, que se ponen a disposición de los usuarios de Internet a través de una dirección
                 web URL.
@@ -55,8 +130,8 @@
 
             </p>
 
-            <h3>Sintaxis HTML</h3>
-            <p>
+            <h3 class="p-green">Sintaxis HTML</h3>
+            <p class="p-purple">
                 El lenguaje HTML fue creado para estructurar y dar sentido al contenido de la página web. Su sintaxis
                 gira esencialmente en torno a tres términos básicos: elemento, etiqueta y atributo.
             </p>
@@ -131,7 +206,7 @@
 
         </section>
         <section>
-            <h2>Estructura básica documento html</h2>
+            <h2 id="Tercero">Estructura básica documento html</h2>
             <code>
 <pre>
     &lt;!DOCTYPE html&gt;
@@ -182,7 +257,7 @@
             </ul>
         </section>
         <section>
-            <h2>Etiquetas de texto</h2>
+            <h2 id="Cuarto">Etiquetas de texto</h2>
 
             <h3>Párrafo: &lt;p &gt;</h3>
 
@@ -199,7 +274,7 @@
                 linea y espacios multiples</p>
             <p>Ejemplos.- </p>
 
-            <pre>
+            <pre class="p-purple">
 &lt;pre&gt;   
     We don't need no education
     We don't need no thought control
@@ -226,7 +301,7 @@
 &lt;/pre&gt;
 </pre>
             <p>Resultado</p>
-            <pre>
+            <pre class="p-grey">
     We don't need no education
     We don't need no thought control
     No dark sarcasm in the classroom
@@ -315,7 +390,7 @@ h1{
 </code>
         </section>
         <section>
-            <h2>Etiquetas de listas</h2>
+            <h2 id="Quinto">Etiquetas de listas</h2>
             <h3>Listas ordenadas: &lt; ol &gt; ,&lt; li &gt;</h3>
             <p>Estas etiquetas permiten agregar texto en formato de lista con una prioridad en el orden de aparición de
                 los elementos.</p>
@@ -361,7 +436,7 @@ h1{
 
         </section>
         <section>
-            <h2>Tablas</h2>
+            <h2 id="Sexto">Tablas</h2>
             <h3>Contenedor de la tabla: &lt; table &gt;</h3>
             <p>Esta etiqueta encierra todo el contenido de una tabla</p>
             <h3>Filas: &lt; tr &gt;</h3>
@@ -512,7 +587,7 @@ h1{
         </section>
 
         <section>
-            <h2>Etiquetas multimedia</h2>
+            <h2 id="Septimo">Etiquetas multimedia</h2>
             <h3>Imágenes</h3>
             <p>Permite agregar imágenes, debe incluir el atributo obligatorio <em>src</em> cuyo valor corresponde a la
                 ruta donde se encuentra la imágen. </p>
